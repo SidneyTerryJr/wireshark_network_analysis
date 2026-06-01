@@ -457,13 +457,7 @@ flowchart LR
 
 ## Screenshot Evidence
 
-Add screenshot:
-
-```text
-screenshots/05-http-request.png
-```
-
-Suggested caption:
+<img width="1440" height="900" alt="Screenshot 2026-05-31 at 5 28 36 PM" src="https://github.com/user-attachments/assets/6a5102eb-5923-417f-aa7b-027eee970a96" />
 
 > HTTP POST request showing test form data transmitted without encryption.
 
@@ -521,13 +515,7 @@ flowchart TD
 
 ## Screenshot Evidence
 
-Add screenshot:
-
-```text
-screenshots/06-follow-tcp-stream.png
-```
-
-Suggested caption:
+<img width="1440" height="900" alt="Screenshot 2026-05-31 at 5 32 56 PM" src="https://github.com/user-attachments/assets/58b93bb8-8abf-4fd9-9e17-01ca6ef27e2f" />
 
 > Follow TCP Stream view reconstructing the HTTP conversation between client and server.
 
@@ -551,11 +539,15 @@ Incident responders use stream reconstruction to answer questions such as:
 
 Packet captures can be saved and reopened for later analysis.
 
+<img width="1440" height="900" alt="Screenshot 2026-05-31 at 5 33 05 PM" src="https://github.com/user-attachments/assets/5e61105d-c26b-45ab-9333-87289a30e40e" />
+
 ## Save a Capture
 
 ```text
 File > Save As > .pcapng
 ```
+<img width="1440" height="900" alt="Screenshot 2026-05-31 at 5 34 41 PM" src="https://github.com/user-attachments/assets/bb245bca-f8f8-4c88-aa17-9b6e921160d1" />
+
 
 ## Export Only Filtered Packets
 
@@ -580,16 +572,6 @@ tshark -i eth0 -w capture.pcapng -c 1000
 | `-i eth0` | Capture on interface `eth0` |
 | `-w capture.pcapng` | Write capture to a file |
 | `-c 1000` | Stop after 1,000 packets |
-
-## Screenshot Evidence
-
-Add screenshot:
-
-```text
-screenshots/07-saved-pcap-file.png
-```
-
-Suggested caption:
 
 > Saved `.pcapng` capture files organized for later review and portfolio documentation.
 
