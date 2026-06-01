@@ -1,9 +1,11 @@
 # Lab 2 — 🦈 Wireshark & Network Analysis
-
 ![Status](https://img.shields.io/badge/status-completed-brightgreen)
 ![Tool](https://img.shields.io/badge/tool-Wireshark-blue)
 ![Focus](https://img.shields.io/badge/focus-network%20analysis-orange)
 ![Portfolio](https://img.shields.io/badge/portfolio-cloud%20security-lightgrey)
+
+## Watch Me Build This Lab Here!
+https://www.loom.com/share/c895b408403a42febe8491ad56df655b
 
 ## Executive Summary
 
