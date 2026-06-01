@@ -1,12 +1,12 @@
-# Lab 2 — 🦈 Wireshark & Network Analysis
+# 🦈 Wireshark & Network Analysis
 ![Status](https://img.shields.io/badge/status-completed-brightgreen)
 ![Tool](https://img.shields.io/badge/tool-Wireshark-blue)
 ![Focus](https://img.shields.io/badge/focus-network%20analysis-orange)
 ![Portfolio](https://img.shields.io/badge/portfolio-cloud%20security-lightgrey)
 
-## Watch Me Build This Lab Here!
-https://www.loom.com/share/c895b408403a42febe8491ad56df655b
 
+🎥 **Video walkthrough:** [Wireshark & Network Analysis](https://www.loom.com/share/c895b408403a42febe8491ad56df655b)
+--
 ## Executive Summary
 
 This lab demonstrates foundational packet analysis skills using **Wireshark**, a free and open-source network protocol analyzer used by network engineers, SOC analysts, cloud security engineers, help desk technicians, and incident responders.
@@ -66,7 +66,7 @@ This lab builds the packet analysis foundation needed for real-world troubleshoo
 |---|---|
 | Tool | Wireshark |
 | Capture Format | `.pcapng` |
-| Host Machine | macOS |
+| Host Machine | windows |
 | Network Interface | Wi-Fi |
 | Test Domains | `google.com`, `zero.webappsecurity.com/login.html` |
 | Protocols Analyzed | DNS, TCP, HTTP, ICMP |
@@ -74,33 +74,6 @@ This lab builds the packet analysis foundation needed for real-world troubleshoo
 | Cost | $0 |
 
 ---
-
-## Repository Structure
-
-```text
-wireshark-network-analysis-lab/
-│
-├── README.md
-├── screenshots/
-│   ├── 01-wireshark-interface.png
-│   ├── 02-dns-query-google.png
-│   ├── 03-dns-response-google.png
-│   ├── 04-tcp-three-way-handshake.png
-│   ├── 05-http-request.png
-│   ├── 06-follow-tcp-stream.png
-│   └── 07-saved-pcap-file.png
-│
-├── captures/
-│   ├── dns-analysis.pcapng
-│   ├── tcp-handshake.pcapng
-│   └── http-cleartext-demo-sanitized.pcapng
-│
-└── notes/
-    ├── display-filters.md
-    ├── troubleshooting-notes.md
-    └── lessons-learned.md
-```
-
 > Security note: Do not upload packet captures containing real passwords, session cookies, tokens, private IP details from an employer network, or sensitive personal data. Use sanitized captures created in a home lab or test environment.
 
 ---
@@ -353,7 +326,7 @@ Identify the TCP three-way handshake used to establish a web connection.
 2. Opened a browser and navigated to:
 
 ```text
-http://example.com
+http://zero.webappsecurity.com/login.html
 ```
 
 3. Stopped the capture.
