@@ -82,27 +82,8 @@ This lab builds the packet analysis foundation needed for real-world troubleshoo
 
 The diagram below shows the basic traffic flow from a local host to the internet and how Wireshark captures packets from the selected network interface.
 
-```mermaid
-flowchart LR
-    A[Local Host<br/>Laptop or VM] --> B[Network Interface<br/>Wi-Fi / Ethernet]
-    B --> C[Default Gateway<br/>Home Router / Virtual Router]
-    C --> D[DNS Server]
-    C --> E[Internet]
-    E --> F[Web Server<br/>zero.webappsecurity.com/login.html]
+<img width="1672" height="941" alt="Wireshark Network Diagram" src="https://github.com/user-attachments/assets/efab0c83-b77f-4561-814f-7d7cef0cbb8c" />
 
-    B -. Packet Capture .-> G[Wireshark]
-    G --> H[Packet List Pane]
-    G --> I[Packet Details Pane]
-    G --> J[Packet Bytes Pane]
-
-    style A fill:#eef6ff,stroke:#2563eb,stroke-width:1px
-    style B fill:#f0fdf4,stroke:#16a34a,stroke-width:1px
-    style C fill:#fff7ed,stroke:#f97316,stroke-width:1px
-    style G fill:#f5f3ff,stroke:#7c3aed,stroke-width:1px
-    style H fill:#fafafa,stroke:#525252,stroke-width:1px
-    style I fill:#fafafa,stroke:#525252,stroke-width:1px
-    style J fill:#fafafa,stroke:#525252,stroke-width:1px
-```
 > This diagram shows how traffic flows from external network resources through the local network interface into Wireshark, where packets can be captured, filtered, analyzed, and exported as evidence for troubleshooting or security investigation.
 
 ## Important Capture Clarification
